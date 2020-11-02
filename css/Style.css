@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+
+}
+body
+{
+    font-family:"Open-Sans",sans-serif;
+font-size: 18px;
+
+}
+
+
+
+.container
+{
+
+margin: 20px auto;
+width: 1200px;
+
+}
+
+
+.container .color-switcher
+{
+
+list-style: none;
+margin-bottom:20px;
+text-align: center;
+}
+
+.container .color-switcher li
+{
+  display:inline-block;
+   height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+
+.container .color-switcher li:nth-child(1)
+{
+
+background-color: red;
+
+}
+.container .color-switcher li:nth-child(2)
+{
+
+background-color: green;
+
+}
+.container .color-switcher li:nth-child(3)
+{
+
+background-color:black;
+
+}
+.container .color-switcher li:nth-child(4)
+{
+
+background-color: purple;
+
+}
+.container h3
+{
+    color: red;
+}
+
+
+.container div
+{
+
+    background-color: royalblue;
+    padding: 20px;
+    color: seashell;
+}
