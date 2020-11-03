@@ -62,4 +62,60 @@ bott.addEventListener('click',function()
 div1.innerHTML=Uppercase1(inputt.value);
 
 
-})
+});
+
+
+
+
+var textarea=document.querySelector("#textarea"),
+    count=document.querySelector("#count"),
+    maxlengh=textarea.getAttribute("maxlength");
+
+
+textarea.oninput=function()
+{
+
+count.innerHTML=maxlengh- textarea.value.length;
+
+if(count.innerHTML == 0)
+{
+
+count.classList.add("Zero");
+
+}
+else
+{
+    count.classList.remove("Zero");
+}
+
+}
+
+
+
+var inputText=document.querySelector("#input2");
+
+
+function remTextInput(num)
+{
+
+num.addEventListener('focus',function(){
+
+num.setAttribute('data',num.getAttribute('placeholder'));
+num.setAttribute('placeholder',' ');
+
+
+
+});
+
+num.addEventListener('blur',function(){
+
+num.setAttribute('placeholder',num.getAttribute('data'));
+
+});
+
+
+
+
+}
+
+remTextInput(inputText);
