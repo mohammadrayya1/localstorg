@@ -85,3 +85,49 @@ background-color: purple;
 
     color: red;
 }
+#goup
+{
+    width: 80px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+body
+{
+    height: 4000px;
+}
+
+.class1 h1
+{
+    color: slateblue;
+}
+.class1 p
+{
+    color: springgreen;
+}
+.class2 h1
+{
+    color: rgb(2, 1, 7);
+}
+.class2 p
+{
+    color: springgreen;
+}
+.class3 h1
+{
+    color:magenta;
+}
+.class3 p
+{
+    color:salmon;
+}
+.class4 h1
+{
+    color: rgb(42, 22, 173);
+}
+.class4 p
+{
+    color:royalblue;
+}
